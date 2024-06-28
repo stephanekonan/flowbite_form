@@ -1,0 +1,38 @@
+@media (max-width: 1324px) {
+    .box {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .buttons-box-1 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+
+@media (max-width: 712px) {
+
+    .box-1-form-1,
+    .box-2-form-1,
+    .box-2-form-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .participant-title {
+        display: none;
+    }
+
+    .btns-box-2 {
+        display: none;
+    }
+
+    .btns {
+        display: grid;
+    }
+}
+
+@media (max-width: 572px) {
+
+    .buttons-box-1 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
